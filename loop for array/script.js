@@ -1,10 +1,11 @@
-let carros = ['corsa', 'palio', 'monza','celta' ];
+let carros = ['chevrolet', 'fiat', 'wolksvagen', 'honda'];
 
 let html = '<ul>';
 
-for(let i in carros){
-
-        
-}
+    for(let i in carros){
+        html += '<li>'+ carros[i] +'</li>';
+    }
 
 html += '</ul>';
+
+document.getElementById("demo").innerHTML = html;
