@@ -1,10 +1,8 @@
 let html = '';
 
-let c = 1;
-
-while( c <= 10){
-    html += "número: "+c+"<br>";
+let c = 0;
+while(c < 10){
+    html +="Numero: "+c+"<br>";
     c++;
 }
-
 document.getElementById("demo").innerHTML = html;
